@@ -69,8 +69,8 @@
             bindings = <
 &kp Q    &kp W      &kp E         &kp R                      &kp T                                                        &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A    &kp S      &kp D         &kp F                      &kp G        &kp LS(LG(NUMBER_4))           &kp GLOBE        &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z    &kp X      &kp C         &kp V                      &kp B        &kp LEFT_SHIFT                 &kp DELETE       &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp TAB  &kp LCTRL  &kp LEFT_ALT  &lt_to_layer_0 6 LEFT_WIN  &lt 1 SPACE  &lt_to_layer_0 3 CAPSLOCK      &lt 4 BACKSPACE  &lt 2 ENTER                             &mkp MB1
+&kp Z    &kp X      &kp C         &kp V                      &kp B        &kp LEFT_SHIFT                 &kp DELETE       &kp N        &kp M  &kp COMMA  &kp DOT  &lt 4 SLASH
+&kp TAB  &kp LCTRL  &kp LEFT_ALT  &lt_to_layer_0 6 LEFT_WIN  &lt 1 SPACE  &lt_to_layer_0 4 CAPSLOCK      &lt 4 BACKSPACE  &lt 2 ENTER                             &mkp MB1
             >;
 
             sensor-bindings =
@@ -89,10 +89,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET  &kp AMPERSAND  &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp G      &kp Q          &kp UP     &kp C                 &kp V
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp E      &kp LEFT       &kp DOWN   &kp RIGHT             &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                     &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET  &kp AMPERSAND  &kp TILDE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp G      &kp Q          &kp UP     &kp C              &kp V
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp E      &kp LEFT       &kp DOWN   &kp RIGHT          &kp BACKSLASH
+&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                  &kp PIPE
             >;
         };
 
