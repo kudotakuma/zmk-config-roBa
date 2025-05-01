@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W      &kp E         &kp R     &kp T                                                                                  &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S      &kp D         &kp F     &kp G        &kp LS(LG(NUMBER_4))                &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V     &lt 2 B      &kp LEFT_SHIFT                      &kp DELETE                            &lt 6 N      &kp M  &kp COMMA  &kp DOT  &lt 5 SLASH
-&kp TAB           &kp LCTRL  &kp LEFT_ALT  &kp LWIN  &lt 1 SPACE  &lt_to_layer_0 5 LA(LC(SPACE))      &lt 4 BACKSPACE                       &lt 2 ENTER                             &mkp MB1
+&kp Q             &kp W      &kp E         &kp R     &kp T                                                                                  &kp Y        &kp U  &lt 5 I    &kp O      &kp P
+&kp A             &kp S      &kp D         &kp F     &kp G        &kp LS(LG(NUMBER_4))                &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp H        &kp J  &kp K      &kp L      &kp MINUS
+&mt LEFT_SHIFT Z  &kp X      &kp C         &kp V     &lt 2 B      &kp LEFT_SHIFT                      &kp DELETE                            &lt 6 N      &kp M  &kp COMMA  &lt 4 DOT  &lt 5 SLASH
+&kp TAB           &kp LCTRL  &kp LEFT_ALT  &kp LWIN  &lt 1 SPACE  &lt_to_layer_0 5 LA(LC(SPACE))      &kp BACKSPACE                         &lt 2 ENTER                               &mkp MB1
             >;
         };
 
