@@ -85,10 +85,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                           &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp K_FIND      &kp LC(LG(F))        &kp G                              &kp Q                 &kp UP                &kp C              &kp V
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL       &kp LS(LG(LA(RET)))  &kp E                              &kp LEFT              &kp DOWN              &kp RIGHT          &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans          &trans               &trans                                                                                            &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                           &kp LG(F3)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp K_FIND      &kp LC(LG(F))        &kp G       &kp Q                 &kp UP                &kp C              &kp V
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL       &kp LS(LG(LA(RET)))  &kp E       &kp LEFT              &kp DOWN              &kp RIGHT          &kp BACKSLASH
+&trans                      &trans           &trans           &trans           &trans        &trans          &trans               &trans                                                                     &kp PIPE
             >;
         };
 
