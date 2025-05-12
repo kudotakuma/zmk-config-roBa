@@ -79,7 +79,7 @@
 &kp EXCLAMATION  &kp AT_SIGN       &kp HASH           &kp DOLLAR            &kp PERCENT                                    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LS(LG(F4))  &kp TILDE
 &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GLOBE      &kp F1   &kp F2     &kp F3         &kp F4        &kp F5          &kp EQUAL
 &trans           &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SQT               &kp DOUBLE_QUOTES      &trans         &kp F6   &kp F7     &kp F8         &kp F9        &kp F10         &kp F11
-&trans           &trans            &trans             &trans                &trans                 &trans         &kp DEL  &trans                                                  &mkp MB2
+&trans           &trans            &trans             &trans                &trans                 &trans         &kp DEL  &trans                                                  &mkp MB1
             >;
         };
 
@@ -88,7 +88,7 @@
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                              &kp RG(F3)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp BACKSPACE      &kp LC(LG(F))        &kp G       &kp Q                 &kp UP                &kp C              &kp V
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL          &kp LS(LG(LA(RET)))  &kp E       &kp LEFT              &kp DOWN              &kp RIGHT          &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans             &trans               &trans                                                                     &kp PIPE
+&trans                      &trans           &trans           &trans           &trans        &trans             &trans               &trans                                                                     &mkp MB1
             >;
         };
 
@@ -97,7 +97,7 @@
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans        &trans        &trans        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
 &kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4
 &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans        &trans        &trans        &trans             &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                       &bootloader
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                       &mkp MB1
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -108,7 +108,7 @@
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2       &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &kp RIGHT_GUI  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                     &mkp MB1
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                     &trans
             >;
         };
 
