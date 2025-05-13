@@ -84,7 +84,7 @@
 &kp EXCLAMATION  &kp AT_SIGN       &kp HASH           &kp DOLLAR            &kp PERCENT                                    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LS(LG(F4))  &kp TILDE
 &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GLOBE      &kp F1   &kp F2     &kp F3         &kp F4        &kp F5          &kp EQUAL
 &trans           &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SQT               &kp DOUBLE_QUOTES      &trans         &kp F6   &kp F7     &kp F8         &kp F9        &kp F10         &kp F11
-&trans           &trans            &trans             &trans                &trans                 &trans         &kp DEL  &trans                                                  &mkp MB1
+&trans           &trans            &trans             &trans                &trans                 &trans         &kp DEL  &trans                                                  &mkp MB2
             >;
         };
 
@@ -113,7 +113,7 @@
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans         &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2       &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &kp RIGHT_GUI  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                     &mo 4
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                     &trans
             >;
         };
 
