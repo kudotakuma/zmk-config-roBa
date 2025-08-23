@@ -90,10 +90,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                              &kp RG(F3)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp BACKSPACE      &kp LC(LG(F))        &kp G       &kp Q                 &kp UP                &kp C              &kp V
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL          &kp LS(LG(LA(RET)))  &kp E       &kp LEFT              &kp DOWN              &kp RIGHT          &kp BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans             &trans               &trans                                                                     &mkp MB2
+&kp MINUS                   &kp N7  &kp N8  &kp N9  &kp PLUS                                              &kp RG(F3)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&kp SLASH                   &kp N4  &kp N5  &kp N6  &kp ASTERISK  &kp BACKSPACE      &kp LC(LG(F))        &kp G       &kp Q                 &kp UP                &kp C              &kp V
+&mt LEFT_SHIFT KP_NUMBER_0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp EQUAL          &kp LS(LG(LA(RET)))  &kp E       &kp LEFT              &kp DOWN              &kp RIGHT          &kp BACKSLASH
+&trans                      &trans  &trans  &trans  &trans        &trans             &trans               &trans                                                                     &mkp MB2
             >;
         };
 
