@@ -119,10 +119,10 @@
 
         SCROLL {
             bindings = <
-&none  &none  &none  &none  &none                    &none  &none                &kp RC(PLUS)           &kp RC(MINUS)  &none
-&none  &none  &none  &none  &none  &none      &none  &none  &mkp MB1             &mkp MB3               &mkp MB2       &kp LEFT_CONTROL
-&none  &none  &none  &none  &none  &none      &none  &none  &kp RC(K_SCROLL_UP)  &kp RC(K_SCROLL_DOWN)  &kp LEFT_GUI   &none
-&none  &none  &none  &none  &none  &none      &none  &none                                                             &mkp MB1
+&none  &none  &none  &none  &none                    &none  &none         &none          &none         &mkp MB4
+&none  &none  &none  &none  &none  &none      &none  &none  &mkp MB1      &mkp MB3       &mkp MB2      &mkp MB5
+&none  &none  &none  &none  &none  &none      &none  &none  &kp LG(PLUS)  &kp LG(MINUS)  &kp LEFT_GUI  &none
+&none  &none  &none  &none  &none  &none      &none  &none                                             &mkp MB1
             >;
         };
 
