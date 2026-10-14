@@ -1,5 +1,5 @@
+name: Build roBa firmware
 on: [push, pull_request, workflow_dispatch]
-
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@c44343509a6e02e7a1059ec032b708337ee6c5e6
