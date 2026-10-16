@@ -122,6 +122,11 @@ jobs:
       - name: Apply reviewed BLE recovery patch
         run: python3 "${GITHUB_WORKSPACE}/scripts/patch_ble_recovery.py" "${{ env.base_dir }}/zmk/app/src/ble.c"
 
+      - name: Test and apply split bounds fix
+        run: |
+          python3 "${GITHUB_WORKSPACE}/scripts/test_split_bounds.py" "${{ env.base_dir }}/zmk/app/src/split"
+          python3 "${GITHUB_WORKSPACE}/scripts/patch_split_bounds.py" "${{ env.base_dir }}/zmk/app/src/split"
+
       - name: West Zephyr export
         working-directory: ${{ env.base_dir }}
         run: west zephyr-export
