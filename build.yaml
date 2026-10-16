@@ -1,15 +1,6 @@
-# Baseline and candidate share the same pinned firmware and live keymap.
-# The baseline is a reproducible comparison, not a dump of installed firmware.
 include:
   - board: seeeduino_xiao_ble
     shield: roBa_R
     snippet: studio-rpc-usb-uart
-    artifact-name: roba-right-baseline
-  - board: seeeduino_xiao_ble
-    shield: roBa_R
-    snippet: studio-rpc-usb-uart
-    artifact-name: roba-right-ble-stability
+    artifact-name: roba-right-reconnect-recovery
     cmake-args: -DCONFIG_ZMK_SLEEP=n -DCONFIG_BT_CTLR_PHY_2M=n -DCONFIG_BT_CTLR_TX_PWR_PLUS_8=y
-  - board: seeeduino_xiao_ble
-    shield: roBa_L
-    artifact-name: roba-left-matching
