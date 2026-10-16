@@ -116,6 +116,9 @@ jobs:
         working-directory: ${{ env.base_dir }}
         run: west update --fetch-opt=--filter=tree:0
 
+      - name: Restore pinned patch inputs from build cache
+        run: git -C "${{ env.base_dir }}/zmk" restore --source=HEAD -- app/src/ble.c app/src/split/central.c app/src/split/bluetooth/central.c
+
       - name: Test advertising recovery state transitions
         run: python3 "${GITHUB_WORKSPACE}/scripts/test_ble_recovery.py" "${{ env.base_dir }}/zmk/app/src/ble.c"
 
