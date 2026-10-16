@@ -25,6 +25,7 @@ def patch(source):
  * -EALREADY when advertising is already running. Retry transient failures and
  * stale application advertising state; never stop/restart healthy advertising.
  */
+BUILD_ASSERT(!IS_ENABLED(CONFIG_BT_EXT_ADV), "roBa recovery reviewed for legacy advertising only");
 static void roba_adv_recovery_callback(struct k_work *work);
 K_WORK_DELAYABLE_DEFINE(roba_adv_recovery_work, roba_adv_recovery_callback);
 

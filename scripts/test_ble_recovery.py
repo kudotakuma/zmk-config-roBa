@@ -20,6 +20,9 @@ struct k_work {int unused;};
 static int active_profile,starts,stops,scheduled,error_once;
 static bool connected[5],opened[5],on_air;
 enum advertising_type {ZMK_ADV_NONE,ZMK_ADV_DIR,ZMK_ADV_CONN} advertising_status;
+#define BUILD_ASSERT(cond, msg) _Static_assert(cond, msg)
+#define IS_ENABLED(x) (x)
+#define CONFIG_BT_EXT_ADV 0
 #define CURR_ADV(x) ((x)<<4)
 #define LOG_ERR(...) ((void)0)
 #define LOG_DBG(...) ((void)0)

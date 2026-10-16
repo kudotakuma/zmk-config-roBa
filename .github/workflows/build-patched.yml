@@ -116,6 +116,9 @@ jobs:
         working-directory: ${{ env.base_dir }}
         run: west update --fetch-opt=--filter=tree:0
 
+      - name: Test advertising recovery state transitions
+        run: python3 "${GITHUB_WORKSPACE}/scripts/test_ble_recovery.py" "${{ env.base_dir }}/zmk/app/src/ble.c"
+
       - name: Apply reviewed BLE recovery patch
         run: python3 "${GITHUB_WORKSPACE}/scripts/patch_ble_recovery.py" "${{ env.base_dir }}/zmk/app/src/ble.c"
 
